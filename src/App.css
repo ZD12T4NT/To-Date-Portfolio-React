@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body{
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+h1,h2,h3, a{
+  font-family:'Ubuntu', sans-serif;
+  font-weight:400;
+}
+
+p, span{
+  font-family: 'Source Serif Pro', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
 }
