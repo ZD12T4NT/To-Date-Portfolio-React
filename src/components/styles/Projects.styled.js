@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Works = styled.div`
-    height: 100vh;
 
     nav{
         height: 40px;
@@ -17,7 +16,7 @@ export const Works = styled.div`
             border-bottom:2px solid #000;
             bottom:-13px;
             width: 100%;
-    }
+         }
   
 
 

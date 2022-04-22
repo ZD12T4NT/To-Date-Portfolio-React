@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledCard = styled.div`
+
     margin-top:2.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));

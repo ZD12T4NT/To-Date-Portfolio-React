@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  height: 100vh;
   padding: 40px 80px;
   background-color:#f9f9f9;
   color:#000;
@@ -42,6 +41,7 @@ export const Navbar = styled.div`
 
 export const Logo = styled.h1`
     font-weight:400;
+    font-size:1.3rem;
 `
 
 export const HeaderContent = styled.div`
@@ -49,7 +49,7 @@ export const HeaderContent = styled.div`
     width: 1100px;
 
      h1{
-        font-size:4.6rem;
+        font-size:4.5rem;
         margin:0 0 40px 0;
      }
 
