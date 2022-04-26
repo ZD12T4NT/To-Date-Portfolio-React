@@ -14,6 +14,7 @@ export const Flex = styled.div`
     position: relative;
 
    
+   
 
 
     div:nth-child(2){
@@ -42,8 +43,7 @@ export const Flex = styled.div`
             top: 0;
             width: 100%;
         }
-    
-    
+
 
     
     h1{
@@ -54,14 +54,21 @@ export const Flex = styled.div`
 
    
 
-
-    
-
     & > div,
     & > ul {
         flex:1;
 
         
+    }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){
+        flex-direction:column;
+
+
+        h1{
+            margin: 30px 0 0 0 ;
+            width: 400px;
+        }
     }
 
 `

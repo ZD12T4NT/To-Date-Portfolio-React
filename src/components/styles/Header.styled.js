@@ -4,9 +4,53 @@ export const Container = styled.div`
   padding: 40px 80px;
   background-color:#f9f9f9;
   color:#000;
+
+  @media only screen and (max-width:${({ theme }) => theme.mobile}){
+        flex-direction:column;
+
+        padding:40px 55px;
+    }
 `
 
 export const Navbar = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    nav{
+        height: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+        ul{
+            display: flex;
+
+            li{
+                margin: 0 30px;
+                padding: 0 10px;
+
+                a{
+                    color:#000;
+                    transition:all 0.2s ease-in-out;
+
+                    &:hover{
+                        border-bottom:2.5px solid #000;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){
+        nav{
+            display: none;
+        }
+    } 
+`
+
+export const NavbarTwo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +80,19 @@ export const Navbar = styled.div`
                 }
             }
         }
+    }  
+`
+
+export const LogoTwo = styled.h1`
+    font-weight:400;
+    font-size:1.3rem;
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){
+
+       font-size:1rem;
     }
 `
+
 
 export const Logo = styled.h1`
     font-weight:400;
@@ -67,6 +122,17 @@ export const HeaderContent = styled.div`
             border-bottom:2.5px solid #000;
         }
        }
+
+    @media only screen and (max-width:${({ theme }) => theme.mobile}){
+         
+         width: 420px;
+
+
+        h1{
+            font-size:3rem;
+        }
+
+}
 `
 
 

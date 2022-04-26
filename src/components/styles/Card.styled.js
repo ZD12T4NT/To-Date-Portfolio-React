@@ -4,7 +4,7 @@ export const StyledCard = styled.div`
 
     margin-top:2.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     gap: 4rem;
 
     h2{
@@ -17,11 +17,16 @@ export const StyledCard = styled.div`
         text-transform:uppercase;
     }
 
-    div:nth-child(5){
-        grid-column:1 / 3;
-    }
 
     img{
-        height: 350px;
+        box-shadow: 0px 0px 44px -3px rgba(0,0,0,0.1);
+        transition:all .3s ease-in-out;
+        width: 100%;
+
+        &:hover{
+        box-shadow: 0px 0px 44px -3px rgba(0,0,0,0.3);
+
+        }
     }
+
 `

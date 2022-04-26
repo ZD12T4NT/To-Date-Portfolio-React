@@ -1,20 +1,20 @@
 import React from "react";
-import { Container, Logo, Navbar } from "./styles/Header.styled";
+import { Container, LogoTwo, NavbarTwo } from "./styles/Header.styled";
 
 export const Footer = () => {
   return (
         <Container>
-            <Navbar>
+            <NavbarTwo>
               <nav>
-              <Logo>&copy;2022</Logo>
+              <LogoTwo>&copy;2022</LogoTwo>
                   <ul>
-                      <li> <a href="/">Instagram</a></li>
-                      <li> <a href="/">Twitter</a></li>
-                      <li> <a href="/">Github</a></li>
-                      <li> <a href="/">LinkedIn</a></li>
+                      <li> <a href="/">In</a></li>
+                      <li> <a href="/">Tw</a></li>
+                      <li> <a href="/">Gh</a></li>
+                      <li> <a href="/">Li</a></li>
                   </ul>
               </nav>
-          </Navbar>
+          </NavbarTwo>
         </Container>
      
   )
