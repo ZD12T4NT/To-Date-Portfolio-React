@@ -20,22 +20,24 @@ export const Card = () => {
             <img src="./images/og 1.png" alt="Spotify app" />
             </a>
             <a href="https://github.com/ZD12T4NT/Spotify-Data-App">
-            <h2>Spotify API</h2>
+            <h2>Spotify API - <span>Click for code</span></h2>
             </a>
             <p>react - styled-components(SCSS) - responsive - node - express - axios - oauth</p>
        </div>
        <div>
-            <a href="https://github.com/ZD12T4NT/link-shortening-api" target="_blank">
+            
             <img src="./images/link-short.png" alt="Link shortening api" />
+            <a href="https://github.com/ZD12T4NT/link-shortening-api" target="_blank">
+            <h2>Link Shortening API - <span>Click for code</span></h2>
             </a>
-            <h2>Link Shortening API</h2>
             <p>react - styled-components(SCSS) - responsive</p>
        </div>
        <div>
-            <a href="https://github.com/ZD12T4NT/calm-landing-page" target="_blank">
             <img src="./images/calm-lp.png" alt="Calm landing page" />
+            <a href="https://github.com/ZD12T4NT/calm-landing-page" target="_blank">
+            <h2>Calm landing page - <span>Click for code</span></h2>
             </a>
-            <h2>Calm landing page</h2>
+
             <p>react - styled-components(SCSS) - responsive</p>
        </div>
     </StyledCard>

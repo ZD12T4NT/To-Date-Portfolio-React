@@ -8,7 +8,7 @@ export const Contact = () => {
            <Container>
             <Flex>
                 <div>
-                <h1>Contact Me</h1>
+                <h1 id="contact" >Contact Me</h1>
                 </div>
                 <div>
                     <p>Have a project in mind? Contact me through email or message me on any social media handle for a quicker response.</p>

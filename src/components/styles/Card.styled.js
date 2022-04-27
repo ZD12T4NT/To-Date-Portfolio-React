@@ -10,6 +10,16 @@ export const StyledCard = styled.div`
     h2{
         margin:1rem 0;
         font-size:2.2rem;
+        color:#000;
+        transition:all 0.3s ease-in-out;
+
+        &:hover{
+            opacity: 0.7;
+        }
+
+        span{
+            opacity:0.4;
+        }
     }
 
     p{
@@ -28,5 +38,7 @@ export const StyledCard = styled.div`
 
         }
     }
+
+
 
 `
