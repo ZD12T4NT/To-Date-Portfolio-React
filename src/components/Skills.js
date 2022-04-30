@@ -12,6 +12,7 @@ export const Skills = () => {
                   <li>css</li>
                   <li>javascript</li>
                   <li>react</li>
+                  <li>prismic(cms)</li>
               </ul>
           </div>
           <div>

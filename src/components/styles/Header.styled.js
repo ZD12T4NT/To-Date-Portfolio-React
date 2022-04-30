@@ -16,6 +16,7 @@ export const Navbar = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation:fadeIn 1.2s forwards;
     
 
     nav{
@@ -48,6 +49,16 @@ export const Navbar = styled.div`
             display: none;
         }
     } 
+
+    @keyframes fadeIn {
+        from{
+            opacity:0;
+        }
+        to{
+            opacity: 100%;
+        }
+        
+    }
 `
 
 export const NavbarTwo = styled.div`
@@ -102,14 +113,21 @@ export const Logo = styled.h1`
 export const HeaderContent = styled.div`
     margin-top:7rem;
     width: 1100px;
+    overflow:hidden;
+
 
      h1{
         font-size:4.5rem;
         margin:0 0 40px 0;
+
+
+
      }
 
      i{
         font-size:2rem;
+
+
      }
 
        a{
@@ -117,6 +135,8 @@ export const HeaderContent = styled.div`
         color:#000;
         margin:0 0 0 10px;
         transition:all 0.2s ease-in-out;
+
+
 
         &:hover{
             border-bottom:2.5px solid #000;
